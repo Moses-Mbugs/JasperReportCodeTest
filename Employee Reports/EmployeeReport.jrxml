@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 9.0.0.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="EmployeeReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="89855452-b8c5-4a99-9a7f-1482209f4772">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="final"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT Employee_ID,
+	Employee_Name, Department,
+	Salary_KSH, Hire_Date,
+	Address,
+	Contact_Information
+FROM employee_details]]>
+	</queryString>
+	<field name="Employee_ID" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Employee_ID"/>
+		<property name="com.jaspersoft.studio.field.label" value="Employee_ID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<field name="Employee_Name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Employee_Name"/>
+		<property name="com.jaspersoft.studio.field.label" value="Employee_Name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<field name="Department" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Department"/>
+		<property name="com.jaspersoft.studio.field.label" value="Department"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<field name="Salary_KSH" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="Salary_KSH"/>
+		<property name="com.jaspersoft.studio.field.label" value="Salary_KSH"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<field name="Hire_Date" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="Hire_Date"/>
+		<property name="com.jaspersoft.studio.field.label" value="Hire_Date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<field name="Address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Address"/>
+		<property name="com.jaspersoft.studio.field.label" value="Address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<field name="Contact_Information" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="Contact_Information"/>
+		<property name="com.jaspersoft.studio.field.label" value="Contact_Information"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="employee_details"/>
+	</field>
+	<group name="Employee_ID">
+		<groupExpression><![CDATA[$F{Employee_ID}]]></groupExpression>
+	</group>
+	<group name="Employee_Name">
+		<groupExpression><![CDATA[$F{Employee_Name}]]></groupExpression>
+	</group>
+	<group name="Department">
+		<groupExpression><![CDATA[$F{Department}]]></groupExpression>
+	</group>
+	<group name="Salary_KSH">
+		<groupExpression><![CDATA[$F{Salary_KSH}]]></groupExpression>
+	</group>
+	<group name="Hire_Date">
+		<groupExpression><![CDATA[$F{Hire_Date}]]></groupExpression>
+	</group>
+	<group name="Address">
+		<groupExpression><![CDATA[$F{Address}]]></groupExpression>
+	</group>
+	<group name="Contact_Information">
+		<groupExpression><![CDATA[$F{Contact_Information}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
