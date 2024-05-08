@@ -1,0 +1,9 @@
+SELECT Employee_ID,
+	Employee_Name, Department,
+	Salary_KSH, Hire_Date,
+	Address,
+	Contact_Information
+FROM employee_details WHERE Department = $P{dep_param}
+AND Salary_KSH >= $P{min_sal} AND Salary_KSH <= $P{max_sal}
+
+above snippet is for the department and salary parameter
