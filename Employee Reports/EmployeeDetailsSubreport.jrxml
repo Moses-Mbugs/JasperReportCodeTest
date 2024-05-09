@@ -75,9 +75,9 @@ where Employee_ID = $P{ID}]]>
 		<band splitType="Stretch"/>
 	</background>
 	<detail>
-		<band height="30" splitType="Stretch">
+		<band height="28" splitType="Stretch">
 			<textField>
-				<reportElement x="80" y="0" width="138" height="30" uuid="0844dc83-4416-4110-8cdd-b3715f98149e">
+				<reportElement x="0" y="0" width="138" height="14" uuid="0844dc83-4416-4110-8cdd-b3715f98149e">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a621c45b-dc65-401d-b84b-6193c9cbfdcc"/>
 				</reportElement>
 				<box>
@@ -90,7 +90,7 @@ where Employee_ID = $P{ID}]]>
 				<textFieldExpression><![CDATA[$F{Address}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="260" y="0" width="138" height="30" uuid="d8b7c797-28fe-4420-ae5a-f5444b95360b">
+				<reportElement x="0" y="14" width="138" height="14" uuid="d8b7c797-28fe-4420-ae5a-f5444b95360b">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1df01d6b-517b-4bb1-a1de-386464266ff2"/>
 				</reportElement>
 				<box>
