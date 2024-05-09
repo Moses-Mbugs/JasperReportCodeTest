@@ -1,3 +1,10 @@
+Moses Mbugua
+May 2024
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+       		IMPORTANT CODE SNIPPETS
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 SELECT Employee_ID,
 	Employee_Name, Department,
 	Salary_KSH, Hire_Date,
@@ -6,4 +13,18 @@ SELECT Employee_ID,
 FROM employee_details WHERE Department = $P{dep_param}
 AND Salary_KSH >= $P{min_sal} AND Salary_KSH <= $P{max_sal}
 
-above snippet is for the department and salary parameter
+Above snippet is for the department and salary parameter 
+This is for the main report AKA EmployeeReport.jrxml
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+For the subreport parameter aka EmployeeDetailsSubreport.jrxml
+SELECT Employee_ID,
+	Employee_Name, Department,
+	Salary_KSH, Hire_Date,
+	Address,
+	Contact_Information
+FROM employee_details
+where Employee_ID = $P{ID} 
+
+$P{ID} is a parameter
