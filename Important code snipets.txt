@@ -28,3 +28,42 @@ FROM employee_details
 where Employee_ID = $P{ID} 
 
 $P{ID} is a parameter
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Grouping and aggregation sql snippet
+
+SELECT Employee_ID,
+	Employee_Name, Department,
+	Salary_KSH, Hire_Date
+FROM employee_details
+where Department in (
+	'Marketing',
+	 'Finance',
+	 'Human Resources',
+	 'Sales',
+	 'Operations',
+	 'Customer Service',
+	 'IT',
+	 'Research & Development',
+	 'Quality Assurance',
+	 'Administration'
+)
+Order by Department asc
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+This section will contain various department in the dataset
+
+ 'Marketing'
+ 'Finance'
+ 'Human Resources'
+ 'Sales'
+ 'Operations'
+ 'Customer Service'
+ 'IT'
+ 'Research & Development'
+ 'Quality Assurance'
+ 'Administration'
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
