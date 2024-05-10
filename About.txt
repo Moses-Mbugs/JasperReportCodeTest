@@ -1,0 +1,30 @@
+Hello
+
+For this project dummy data was used. This inludes Employee IDs, Employee Names,
+Departments, Salary Ksh, Hire Date, Address and Contact info. Within to this is the sql
+(jasper.sql) Its also saved in excel (employee.xlss)
+
+No additional software was used apart from JasperSoft Studio.
+Results of the Tests are in the Test result folder.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Moses Mbugua - 2024
