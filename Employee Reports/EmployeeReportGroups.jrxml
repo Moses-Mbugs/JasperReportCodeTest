@@ -111,7 +111,7 @@ Order by Department asc]]>
 			<staticText>
 				<reportElement x="124" y="17" width="307" height="46" uuid="831454a7-909f-426f-8eed-d292f62e84c9"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Old English Text MT" size="37"/>
+					<font fontName="Old English Text MT" size="28"/>
 				</textElement>
 				<text><![CDATA[The Time Company]]></text>
 			</staticText>

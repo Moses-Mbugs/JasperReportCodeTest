@@ -111,7 +111,7 @@ time@co.ke]]></text>
 	<columnHeader>
 		<band height="30" splitType="Stretch">
 			<staticText>
-				<reportElement x="0" y="0" width="111" height="30" uuid="09e298f6-37a9-40b1-b2bd-5a025b76f4d9">
+				<reportElement mode="Opaque" x="0" y="0" width="111" height="30" backcolor="#4EED66" uuid="09e298f6-37a9-40b1-b2bd-5a025b76f4d9">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2b81a415-3785-48b6-85b1-cec9588ec8bf"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
@@ -129,7 +129,7 @@ time@co.ke]]></text>
 				<text><![CDATA[Employee ID]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="111" y="0" width="111" height="30" uuid="e9a3c934-1b5a-4f96-98b0-896744777564">
+				<reportElement mode="Opaque" x="111" y="0" width="111" height="30" backcolor="#4EED66" uuid="e9a3c934-1b5a-4f96-98b0-896744777564">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="671bd416-eb9f-4639-88c9-a8a4e46cedc9"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -146,7 +146,7 @@ time@co.ke]]></text>
 				<text><![CDATA[Employee Name]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="222" y="0" width="111" height="30" uuid="c573c698-fddd-4cee-b73e-a1d3da9350dc">
+				<reportElement mode="Opaque" x="222" y="0" width="111" height="30" backcolor="#4EED66" uuid="c573c698-fddd-4cee-b73e-a1d3da9350dc">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b62d215a-a206-4ed9-88a5-f84cbf01a540"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -163,7 +163,7 @@ time@co.ke]]></text>
 				<text><![CDATA[Department]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="333" y="0" width="111" height="30" uuid="128ff369-c0dd-4c98-9ebb-6ea16974edaf">
+				<reportElement mode="Opaque" x="333" y="0" width="111" height="30" backcolor="#4EED66" uuid="128ff369-c0dd-4c98-9ebb-6ea16974edaf">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9af8b06b-d854-45d2-a13f-4131228b07d9"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -180,7 +180,7 @@ time@co.ke]]></text>
 				<text><![CDATA[Salary in KSH]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="444" y="0" width="111" height="30" uuid="a4265df5-1ddc-4061-b115-2feb679249e7">
+				<reportElement mode="Opaque" x="444" y="0" width="111" height="30" backcolor="#4EED66" uuid="a4265df5-1ddc-4061-b115-2feb679249e7">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="81f80028-a6d6-477c-a16d-dcdac995db19"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
